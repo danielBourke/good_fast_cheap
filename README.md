@@ -2,7 +2,7 @@
 
 This chalenge uses redux inorder to re-create the the good fast cheap problem. 
 
-![preview-good-fast-cheap](https://workers--photos-dev.s3.eu-west-2.amazonaws.com/ezgif.com-gif-maker.gif)
+![preview-g-f-c](https://workers--photos-dev.s3.eu-west-2.amazonaws.com/gif/ezgif.com-gif-maker.gif)
 
 
 ## Available Scripts
