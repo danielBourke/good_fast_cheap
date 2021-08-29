@@ -1,4 +1,4 @@
-import { SET_FAST_cheap, SET_GOOD_cheap, SET_GOOD_FAST, SET_TOGGLE } from "app/constants";
+import { SET_FAST_CHEAP, SET_GOOD_CHEAP, SET_GOOD_FAST, SET_TOGGLE } from "app/constants";
 
 const initialState = {
   good: true,
@@ -8,7 +8,7 @@ const initialState = {
 
 const GFCReducer = (state = initialState, action) => {
   switch (action.type) {
-    case SET_FAST_cheap: {
+    case SET_FAST_CHEAP: {
       return {
         ...state,
         [action.payload]: !state[action.payload],
@@ -22,7 +22,7 @@ const GFCReducer = (state = initialState, action) => {
         fast: false
       }
     }
-    case SET_GOOD_cheap: {
+    case SET_GOOD_CHEAP: {
       return {
         ...state,
         [action.payload]: !state[action.payload],

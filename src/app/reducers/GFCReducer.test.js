@@ -1,5 +1,5 @@
 import GFCReducer from './GFCReducer'
-import { SET_FAST_cheap, SET_GOOD_cheap, SET_GOOD_FAST, SET_TOGGLE } from 'app/constants';
+import { SET_FAST_CHEAP, SET_GOOD_CHEAP, SET_GOOD_FAST, SET_TOGGLE } from 'app/constants';
 
 test('should return the initial state', () => {
     expect(GFCReducer(undefined, { })).toEqual(
@@ -16,7 +16,7 @@ test('if fast and cheap === true cheap should be made false', () => {
         good: false,
         fast: true,
         cheap: false
-    }, { type: SET_FAST_cheap, payload: "good" })).toEqual(
+    }, { type: SET_FAST_CHEAP, payload: "good" })).toEqual(
         {
             good: true,
             fast: true,
@@ -44,7 +44,7 @@ test('if cheap and good === true good should be made false', () => {
         good: true,
         fast: false,
         cheap: true
-    }, { type: SET_GOOD_cheap, payload: "fast" })).toEqual(
+    }, { type: SET_GOOD_CHEAP, payload: "fast" })).toEqual(
         {
             good: false,
             fast: true,
